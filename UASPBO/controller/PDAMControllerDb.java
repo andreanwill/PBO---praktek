@@ -90,7 +90,7 @@ public class PDAMControllerDb
                 model.addRow(data);
             }
         } catch (Exception ex) {
-            Logger.getLogger(TaxiControllerDb.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(PDAMControllerDb.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
