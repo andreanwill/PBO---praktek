@@ -108,7 +108,7 @@ public class PDAMControllerDb
             formPDAM.getTxtBiayaPerMeter().setText(pdam.getBiayaPerMeter());
             formPDAM.getTxtTotalBayar().setText(pdam.getTotalBayar());
         } catch (Exception ex) {
-            Logger.getLogger(TaxiControllerDb.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(PDAMControllerDb.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
@@ -126,7 +126,7 @@ public class PDAMControllerDb
             pdamDb.update(pdam);
             JOptionPane.showMessageDialog(formPDAM, "Update Data Ok");
         } catch (Exception ex) {
-            Logger.getLogger(TaxiControllerDb.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(PDAMControllerDb.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
     
